@@ -109,7 +109,7 @@
       }
 
       cat.addEventListener("mouseover", () => {
-        cat.src = "/cat-spinning.gif";
+        cat.src = "cat-spinning.gif";
         angle = Math.random() * 2 * Math.PI;
         speed = 1;
         vx = Math.cos(angle) * speed;
@@ -127,7 +127,7 @@
       });
 
       cat.addEventListener("mouseout", () => {
-        cat.src = "/cat.PNG";
+        cat.src = "cat.PNG";
         cancelAnimationFrame(animationFrameId);
         centerCat();
         audio.pause();
