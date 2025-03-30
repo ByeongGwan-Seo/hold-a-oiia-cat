@@ -30,13 +30,13 @@ body {
 
 #catImage {
   position: absolute;
-  max-width: 200px;
+  width: 300px;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
 
 @media (max-width: 600px) {
   #catImage {
-    width: 150px;
+    width: 200px;
   }
 }
