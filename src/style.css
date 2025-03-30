@@ -35,14 +35,8 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 600px) and (max-width: 1280px) {
-  #catImage {
-    max-width: 120px;
-  }
-}
-
 @media (max-width: 600px) {
   #catImage {
-    width: 100px;
+    width: 150px;
   }
 }
